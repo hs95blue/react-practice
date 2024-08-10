@@ -1,0 +1,25 @@
+.counter {
+  .counter-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10rem;
+  }
+  .config-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .button {
+    background: none;
+    font-size: 9rem;
+    border: none;
+    cursor: pointer;
+    color: #ced4e2;
+  }
+  .minus {
+    font-size: 12rem;
+    padding-bottom: 35px;
+  }
+}

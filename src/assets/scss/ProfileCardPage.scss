@@ -1,0 +1,102 @@
+.profile{
+    .profile-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        height: 100vh;
+      }
+      
+      .profile-card {
+        background: #1e1e1e;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        color: #ced4e2;
+        width: 500px;
+      }
+      .profile-card-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #47eee5;
+        position: relative;
+        height: 200px;
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 7px solid #ffffff;
+            position: absolute;
+            bottom: -75px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+      }
+
+      .profile-card-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 70px;
+        .profile-card-body-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 150px;
+
+            .profile-card-body-item-name{
+                margin-bottom: 15px;
+
+                span{
+                    margin-left: 10px;
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                }
+                .name{
+                    color: #101312;
+                }
+            }
+            
+        }
+       
+      }
+
+      .profile-card-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #ced4e2;
+        background-color: #ffffff;
+        .profile-card-footer-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height:60px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding: 50px;
+            div{
+                .number{
+                    font-size: 2rem;
+                    font-weight: 600;
+                    color: #101312;
+                    margin-bottom: 10px;
+                }
+                :not(.number) {
+                    letter-spacing: 0.2em; /* 원하는 자간 값으로 변경 */
+                    font-size: 1.2rem;
+                  }
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+      }
+}
